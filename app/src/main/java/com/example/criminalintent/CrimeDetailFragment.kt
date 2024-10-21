@@ -11,7 +11,6 @@ import java.util.Date
 import java.util.UUID
 
 class CrimeDetailFragment : Fragment() {
-  //  private lateinit var binding: FragmentCrimeDetailBinding
   private var _binding: FragmentCrimeDetailBinding? = null
     private val binding
         get() = checkNotNull(_binding) {
