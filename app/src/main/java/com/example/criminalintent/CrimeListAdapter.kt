@@ -9,6 +9,7 @@ import com.example.criminalintent.databinding.ListItemCrimeBinding
 class CrimeListAdapter(
     private val crimes: List<Crime>
 ) : RecyclerView.Adapter<CrimeHolder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CrimeHolder {
      val inflater = LayoutInflater.from(parent.context)
         val binding = ListItemCrimeBinding.inflate(inflater,parent, false)
